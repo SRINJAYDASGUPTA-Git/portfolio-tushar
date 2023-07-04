@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import { VscFoldUp } from "react-icons/vsc";
 import Link from "next/link";
 import contact from "../public/firmbee-com-SpVHcbuKi6E-unsplash.jpg";
 const Contact = () => {
@@ -115,7 +115,7 @@ const Contact = () => {
         <div className="flex justify-center py-12 ">
           <Link href="/">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-              <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
+              <VscFoldUp className="text-[#5651e5]" size={30} />
             </div>
           </Link>
         </div>

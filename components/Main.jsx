@@ -30,17 +30,20 @@ const Main = () => {
               </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
-              <Link target="_blank" href="/">
+              <Link target="_blank" href="https://twitter.com/TusharBhat89680">
                 <FaTwitter />
               </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
-              <Link target="_blank" href="/">
+              <Link
+                target="_blank"
+                href="mailto:tusharbhattacharjee37@gmail.com"
+              >
                 <AiOutlineMail />
               </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-500">
-              <Link target="_blank" href="/">
+              <Link target="_blank" href="tel:+917439620449">
                 <BsFillPersonLinesFill />
               </Link>
             </div>

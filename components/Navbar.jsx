@@ -72,7 +72,7 @@ const Navbar = () => {
           className={
             nav
               ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0  p-5 ease-in duration-500"
+              : "fixed left-[-100%] top-0  p-4 ease-in duration-500"
           }
         >
           <div>
@@ -125,16 +125,33 @@ const Navbar = () => {
               </p>
               <div className="items-center justify-between flex my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <FaLinkedinIn />
+                  <Link
+                    target="_blank"
+                    href="https://www.linkedin.com/in/tushar-bhattacharjee-48085a248/"
+                  >
+                    <FaLinkedinIn />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <FaTwitter />
+                  <Link
+                    target="_blank"
+                    href="https://twitter.com/TusharBhat89680"
+                  >
+                    <FaTwitter />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <AiOutlineMail />
+                  <Link
+                    target="_blank"
+                    href="mailto:tusharbhattacharjee37@gmail.com"
+                  >
+                    <AiOutlineMail />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <BsFillPersonLinesFill />
+                  <Link target="_blank" href="tel:+917439620449">
+                    <BsFillPersonLinesFill />
+                  </Link>
                 </div>
               </div>
             </div>
