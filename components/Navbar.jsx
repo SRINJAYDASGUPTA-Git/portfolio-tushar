@@ -31,9 +31,9 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full  h-2/3 px-2 2xl:px-16">
         <Link href="/">
-          <Image src={initial} width={100} height={50} alt="/" />
+          <Image src={initial} width={60} height={50} alt="/" />
         </Link>
         <div>
           <ul className="hidden md:flex">
@@ -72,7 +72,7 @@ const Navbar = () => {
           className={
             nav
               ? " fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[-100%] top-0  p-10 ease-in duration-500"
+              : "fixed left-[-100%] top-0  p-5 ease-in duration-500"
           }
         >
           <div>

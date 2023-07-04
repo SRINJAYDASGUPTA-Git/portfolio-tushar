@@ -9,7 +9,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            Hey, I'm Tushar Bhattacharya, a beginner VFX artist and 3D modeler.
+            Hey, I'm Tushar Bhattacharjee, a beginner VFX artist and 3D modeler.
             I recently completed my Higher Secondary education at ANMS and
             received specialized training in VFX and 3D modeling from the
             esteemed Moople Institute.

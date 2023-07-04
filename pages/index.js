@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Tushar Bhattacharya</title>
+        <title>Tushar Bhattacharjee</title>
       </Head>
       <Navbar />
       <Main />

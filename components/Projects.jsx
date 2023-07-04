@@ -29,13 +29,13 @@ const Projects = () => {
           />
           <ProjectItem
             title="Rigging Video"
-            technology="Maya3D, Photoshop"
+            technology="Maya3D, Adobe After Effects"
             backgroundImg={rigging}
             projectURL="https://youtu.be/mJbCJkJvt_c"
           />
           <ProjectItem
             title="VFX Showreel"
-            technology="Maya3D, Photoshop"
+            technology="Adobe After Effetcs, Adobe Premiere Pro, Nuke"
             backgroundImg={vfx}
             projectURL="https://youtu.be/0QoG-jvnL7c"
           />

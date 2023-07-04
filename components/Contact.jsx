@@ -25,7 +25,7 @@ const Contact = () => {
                 ></Image>
               </div>
               <div>
-                <h2 className="py-2 ">Tushar Bhattacharya</h2>
+                <h2 className="py-2 ">Tushar Bhattacharjee</h2>
                 <p>CG Generalist</p>
                 <p className="py-4 ">
                   I am available for freelance or full-time positions. Contact
