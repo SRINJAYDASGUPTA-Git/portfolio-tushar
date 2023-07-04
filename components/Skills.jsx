@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import ps from "../public/PS1.png";
 import maya from "../public/Maya1.png";
-import pp from "../public/pp3.png";
+import pp from "../public/PP3.png";
 import ae from "../public/AE1.png";
 import nuke from "../public/N2.png";
 import sp from "../public/adobe-substance-3d-painter-icon.png";
